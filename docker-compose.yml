@@ -5,10 +5,6 @@ services:
     image: gitlab/gitlab-ce:latest
     container_name: gitlab
     restart: always
-    volumes:
-      - 
-    networks:
-      - 
     ports:
       - '8929:8929'
       - '2224:22'
